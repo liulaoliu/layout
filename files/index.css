@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 导航栏 */
+.header_container{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(238,238,238);
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: center -10px;
+
+
+}
+
+#nav_core a{
+    text-decoration: none;
+    color: black;
+}
+#nav_core li:hover{
+    background-color: white;
+}
+.nav_transparent{
+    width: 100%;
+    height: 42px;
+    background-color: rgba(245,245,245,0.7);
+    box-shadow: 0px -1px 8px #888888 ;
+
+}
+#nav_core{
+    width: 1160px;
+    line-height:42px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+#nav_left{
+    height: 42px;
+    width: 50%;
+    float: left;
+}
+#nav_right{
+    height: 42px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#nav_core li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logoAndsearch{
+    width: 1160px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+#search{
+width: 49%;
+float:right;
+text-align: right;
+padding-top: 50px;
+}
+#search input{
+    display: inline-block;
+    height:30px;
+    width:230px;
+    border: solid 1px gray;
+    border-radius: 6px;
+}
+#logo_spring{
+    width:49%;
+    float: left;
+}
+
+.nav_detail{
+    width: 1160px;
+    height:60px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#upper_row{
+    font-size: 12px;
+    vertical-align: bottom;
+
+}
+#td1 {
+    background-image: url(img/house.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+}
+#upper_row td span{
+    background-color: rgb(255,178,208);
+    color:white;
+    padding-left:2px;
+    border-radius: 5px 5px 5px 5px ;
+}
+#lower_row{
+   font-size: 12px;
+}
+/* 这些是内容开始，从轮播这一行起 */
+.carousel_row{
+    width: 1160px;
+    height: 220px;
+    margin: 0 auto;
+
+}
+.carousel{
+    width: 440px;
+    height: 220px;
+    background-color: pink;
+    float: left;
+    margin-right: 20px;;
+}
+.carousel_right_panel{
+    width: 700px;
+    height: 220px;
+
+    float: right;
+}
+
+.carousel_right_panel>img{
+    width: 160px;
+    height: 100px;
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
