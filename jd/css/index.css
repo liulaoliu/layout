@@ -1,0 +1,148 @@
+body{
+    background-color: #f0f3ef;
+}
+.clicktoclose_banner{
+    height: 80px;
+    background: url(../img/clicktoclose.jpg) no-repeat center;
+    background-color: #FCB4FE;
+    position: relative;
+}
+.top_nav_container{
+    background-color: #e3e4e5;
+    height: 31px;
+}
+i[class~="fa-window-close-o"]{
+    position: absolute;
+    right:700px;
+    top:8px;
+    cursor: pointer;
+}
+div[class="block_mediate type_area"]{
+    position: relative;
+}
+/* 正常的第一行导航条 坐起有『地址』 右起『手机京东』 */
+.nav_item{
+    display: inline;
+    z-index: 30;
+
+}
+.nav_item li{
+    float: right;
+    padding-right: 12px;
+    line-height: 31px;
+
+}
+.nav_item li:first-of-type{
+    float: right;
+    padding-right: 0px;
+    line-height: 31px;
+
+}
+.nav_item a{
+    color: #999;
+    font-size: 12px;
+    margin-right: 12px;
+}
+.nav_item a:hover{
+    color:red;
+}
+i[class~=fa-map-marker]{
+    line-height: 31px;
+    color: #f10215;
+    position: absolute;
+    left:200px;
+}
+i[class~=fa-map-marker]+span{
+    color: #999;
+    position: absolute;
+    top:5px;
+    left:220px;
+}
+div.search_panel{
+    height: 60px;
+    position: relative;
+}
+img[src="img/logou.gif"]{
+    /* boxshadow 双边阴影的设置方法。 */
+    box-shadow: 5px 0px 5px -5px gray, -5px 0px 5px -5px gray;
+}
+
+input[class=search_input]{
+    height: 35px;
+    width: 500px;
+    position: absolute;
+    top:25px;
+    left:50%;
+    margin-left: -250px;
+    border:none;
+    color:#999
+
+}
+
+form[action="xxx.php"]>button{
+    width: 50px;
+    height: 35px;
+    background-color:red;
+    border:none;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top:25px;
+    right:345px;
+}
+.shopping_trolley{
+    width: 190px;
+    background-color: #fff;
+    position: absolute;
+    top:25px;
+    right:105px;
+    line-height: 36px;
+    text-align: center;
+    color: red;
+    border: 1px solid rgb(189, 189, 189);
+}
+img[src="img/qrcode.png"]{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+div[class="under_search"]>ul{
+    width: 500px;
+    height: 35px;
+    position: absolute;
+    top:65px;
+    left:50%;
+    margin-left: -250px;
+}
+div.under_search li{
+    padding: 0 15px 0 5px;
+    display: inline-block;
+
+}
+div.under_search a{
+    color:#999;
+    line-height: 20px;
+    font-size: 12px;
+}
+div.nav_item2{
+    /* width: 790px; */
+    text-align: center;
+    /* line-height: 60px; */
+    /* position: absolute; */
+    margin-top: 80px;;
+
+
+}
+.nav_item2 li{
+    display: inline-block;
+    padding: 0 15px 0 20px;
+}
+.nav_item2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-family: consolas;
+    padding-right: 25px;
+}

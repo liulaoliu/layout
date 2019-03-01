@@ -1,0 +1,35 @@
+/* 版心1190 最上面导航30高 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.type_area{
+    width: 1190px;
+}
+.block_mediate{
+    margin:0 auto;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/*左浮动 */
+.fl{
+    float: left;
+}
+
+/* 清除浮动 父后高清显内藏 */
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.list_nopoint{
+    list-style: none;
+}
+.a_nounderline{
+    text-decoration: none;
+}

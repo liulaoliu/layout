@@ -4,11 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>京东网页布局 淘宝网--淘！我喜欢</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/fa/css/font-awesome.min.css">
+    <script src="js/jQuery331.js"></script>
 </head>
 <body>
-    <nav>
-        <h3>京东</h3>
-    </nav>
+    <!-- 最顶部之上的点击就关闭的横幅 -->
+   <div class="clicktoclose_banner">
+       <!-- fa示例 <i class="fa fa-camera-retro fa-lg到fa-2x到fa-5x"></i>  -->
+       <i class="fa fa-window-close-o fa-lg"></i>
+   </div>
+   <!-- 正常页面最顶部的导航栏 -->
+   <nav class="top_nav_container">
+        <div class="block_mediate type_area">
+            <i class="fa fa-map-marker fa-lg"></i><span>辽宁</span>
+                <ul class="nav_item list_nopoint clearfix ">
+                    <li><a href="" class="a_nounderline">天猫</a></li>
+                    <li><a href="" class="a_nounderline">聚划算</a>|</li>
+                    <li><a href="" class="a_nounderline">天猫超市</a>|</li>
+                    <li><a href="" class="a_nounderline">飞猪旅行</a>|</li>
+                    <li><a href="" class="a_nounderline">淘票票</a>|</li>
+                    <li><a href="" class="a_nounderline">企业采购</a>|</li>
+                    <li><a href="" class="a_nounderline">京东会员</a>|</li>
+                    <li><a href="" class="a_nounderline">免费注册</a>|</li>
+                </ul>
+        </div>
+
+   </nav>
+   <!-- 带有京东苟和搜索框的一行   这一行内部的元素很多的都是用定位做的，所以本身加了relative-->
+   <div class="search_panel type_area block_mediate">
+        <img src="img/logou.gif" alt="苟东">
+        <form action="xxx.php" method="POST">
+                <input type="text" class="search_input" placeholder="美妆超极品类日 每50减100 ">
+                <button><i class="fa fa-search"></i></button>
+        </form>
+        <div class="shopping_trolley">
+            <p><i class="fa fa-shopping-cart"></i> 我的购物车</p>
+        </div>
+        <img src="img/qrcode.png" alt="qrcode">
+        <div class="under_search">
+            <ul class="list_nopoint">
+                <li ><a href="#" class="a_nounderline">闭包</a></li>
+                <li ><a href="#" class="a_nounderline">原型链</a></li>
+                <li ><a href="#" class="a_nounderline">隐式转换</a></li>
+                <li ><a href="#" class="a_nounderline">哈哈哈</a></li>
+                <li ><a href="#" class="a_nounderline">解构赋值</a></li>
+                <li ><a href="#" class="a_nounderline">客户端</a></li>
+                <li ><a href="#" class="a_nounderline">设计模式</a></li>
+            </ul>
+        </div>
+
+   </div>
+   <div class="nav_item2 type_area block_mediate">
+        <ul class="list_nopoint">
+            <li><a href="#">秒杀</a></li>
+            <li><a href="#">优惠券</a></li>
+            <li><a href="#">京东生鲜</a>|</li>
+            <li><a href="#">淘宝生鲜</a></li>
+            <li><a href="#">京东金融</a>|</li>
+            <li><a href="#">京东超市</a></li>
+        </ul>
+    </div>
 </body>
+<script src="js/index.js">
+</script>
 </html>
