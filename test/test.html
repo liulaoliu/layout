@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            div li,div a{
+                text-decoration: none;
+                list-style: none;
+            }
+    </style>
+</head>
+<body>
+                <input type="text" name="keyName"  id="m2" >
+                <input type="submit" value="点击就送" id="m1">
+
+
+
+</body>
+<script>
+    let clickevent=document.getElementById('m1');
+    let message=document.getElementById("m2").value;
+    clickevent.onclick=function(){
+        let xhr=new XMLHttpRequest();
+        xhr.open("get","test.php?s1="+message);
+        xhr.onload=function(){
+        console.log(xhr.responseText);
+    }
+
+        xhr.send(null);
+    }
+
+</script>
+</html>

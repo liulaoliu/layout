@@ -92,7 +92,7 @@ input[class=search_input]{
 
 }
 
-form[action="xxx.php"]>button{
+form[action="php/index.php"]>button{
     width: 50px;
     height: 35px;
     background-color:red;
