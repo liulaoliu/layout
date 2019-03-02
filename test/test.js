@@ -1,10 +1,13 @@
 
-let str="关于我们|联系我们|联系客服|合作招商|商家帮助|营销中心|手机京东|友情链接|销售联盟|京东社区|风险监测|隐私政策|京东公益|English Site|Media & IR";
-
-let arr=str.split('|');
-
+let str='工业品<';
+let arr=str.split("/");
+let tmp='';
 for(let i=0;i<arr.length;i++){
+  if(i===arr.length-1){arr[i]='<a href="#">'+arr[i]+'</a>';}
+  else{arr[i]='<a href="#">'+arr[i]+'/</a>';}
+  tmp+=arr[i];
 
-    console.log('<li class="f3c"><a>'+arr[i]+'</a></li>');
 }
 
+tmp="<li>"+tmp+"</li>";
+console.log(tmp);

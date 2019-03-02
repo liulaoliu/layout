@@ -1,0 +1,42 @@
+.detail_description{
+    float: left;
+    height: 480px;
+    width: 190px;
+    background-color: white;
+}
+.detail_description li{
+    list-style: none;
+    padding-left: 15px;
+
+}
+.detail_description a{
+    text-decoration: none;
+    color:#626262;
+    font-size: 14px;
+    line-height: 2;
+}
+.main_img{
+    height: 470px;
+    width: 590px;
+    background-image: url(../img/c1_594_470.jpg);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.trinity{
+    height: 480px;
+    width: 190px;
+    float: left;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.login_panel{
+    height: 480px;
+    width: 190px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+}
