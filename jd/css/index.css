@@ -157,3 +157,124 @@ div.nav_item2{
     font-family: consolas;
     padding-right: 25px;
 }
+
+li[class="footer_up"]{
+    list-style: none;
+
+}
+li[class="footer_up"] div{
+    width: 225px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#444;
+    height: 42px;
+    line-height: 42px;
+
+}
+/* 放置精灵图多快好省的四个h3 */
+.footer_up{
+    height:103px;
+    overflow: hidden;
+}
+footer  ul{
+    margin-top: 31px;
+}
+/* 尽量不要三层选择器 */
+footer .footer_up li{
+    list-style: none;
+    float: left;
+    margin-left: 60px;
+}
+footer h3{
+    height: 42px;
+    width: 36px;
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+footer p{
+    margin-left: 10px;
+    width: 180px;
+    display:inline-block;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+}
+/* 多快好省四个h3的背景图片分别设置 */
+.much{
+    background: url(../img/sprite.footer.png) no-repeat 0 -192px;
+
+}
+.quick{
+    background: url(../img/sprite.footer.png) no-repeat -41px -192px;
+}
+.good{
+    background: url(../img/sprite.footer.png) no-repeat -82px -192px;
+}
+.economical{
+    background: url(../img/sprite.footer.png) no-repeat -123px -192px;
+}
+/* 用一个p做hr效果很好！ */
+.divider{
+    width: 100%;
+    height : 1px;
+    background : #999;
+    margin: 0;
+}
+/* 页脚底部第二行，也就是左起购物指南这一行 */
+.footer_detail_licontainer{
+    float: left;
+    margin-left:100px; ;
+}
+.footer_second{
+    height: 200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.footer_second li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 14px;
+    color:#666;
+}
+
+#footer_detail_right{
+    float: right;
+    height: 224px;
+    width: 200px;
+    position: relative;
+
+}
+#footer_detail_right p,#footer_detail_right h6 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+#footer_detail_right p{
+    margin-top: 20px;
+
+}
+#see_more{
+    position: absolute;
+    right: 2px;;
+    }
+.footer_third{
+    line-height: 18px;
+    font-size: 12px;
+    color:#999;
+
+}
+.f3c{
+    list-style: none;
+    float:left;
+    margin-right:10px;
+}
+.f3b{
+    padding-left:20px;
+}
+.f3c a{
+    margin-right: 10px;
+}

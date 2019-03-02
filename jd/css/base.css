@@ -33,3 +33,14 @@
 .a_nounderline{
     text-decoration: none;
 }
+
+
+/* footer高度568 */
+.footer{
+    height:568px;
+    overflow:hidden;
+}
+.bolder{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
