@@ -7,6 +7,19 @@ body{
     background-color: #FCB4FE;
     position: relative;
 }
+/* 忘了那个图片要盖住这一行了 */
+.veil{
+    display: inline-block;
+    height: 31px;
+    width: 189px;
+    background-color: white;
+}
+/* 没办法下面放一个div，包裹img，否则背景是灰色，不好看 */
+.veil2{
+    background-color:white;
+    width: 189px;
+    height: 170px;
+}
 .top_nav_container{
     background-color: #e3e4e5;
     height: 31px;
