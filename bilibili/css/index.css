@@ -89,7 +89,7 @@ padding-top: 50px;
 
 }
 #td1 {
-    background-image: url(img/house.png);
+    background-image: url(../img/house.png);
     background-repeat: no-repeat;
     background-position: 5px 10px;
 }
