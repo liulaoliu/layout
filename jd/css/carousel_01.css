@@ -1,0 +1,107 @@
+/* .block_mediate{
+    margin: 0 auto;
+} */
+/* .type_area{
+    width: 600px;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+li{
+    list-style: none;
+}
+div[class="carousel_container block_mediate type_area"]{
+    position: relative;
+
+}
+.carousel{
+    height: 470px;
+    width: 590px;
+
+}
+.carousel_item{
+    height: 470px;
+    width: 590px;
+    position: absolute;
+    font-size: 60px;
+    font-family: Consolas;
+    color:white;
+    text-align: center;
+    line-height: 300px;
+    opacity: 0;
+    transition:1s;
+}
+.carousel_item:nth-child(1){
+background-color:orange;
+}
+.carousel_item:nth-child(2){
+background-color:yellowgreen;
+}
+.carousel_item:nth-child(3){
+    background-color:purple;
+}
+.carousel_item:nth-child(4){
+    background-color:goldenrod;
+}
+.carousel_item:nth-child(5){
+    background-color:crimson;
+}
+/* 左右按钮z-index：1230 */
+button{
+    width: 60px;
+    height: 60px;
+    background: rgba(1,1,1,0.2);
+    border: none;
+    position: absolute;
+    top:220px;
+    z-index: 1230;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(1,1,1,0.6);
+}
+.right{
+    right:620px;
+}
+.left{
+    left:20px;
+}
+/* 列表圆点z-index：1230 */
+.points{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.2);
+    position: absolute;
+    z-index: 1230;
+    bottom: 20px;
+    left:200px;
+    border-radius: 6px 6px 6px 6px ;
+    border: 1px solid white;
+
+}
+.points_item{
+    background-color: white;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.points_item[data-index="0"]{
+    margin-left: 35px;
+
+}
+
+.carousel_item.active{
+    z-index: 12;
+    opacity: 1;
+}
+
+.points_item.active{
+    background-color: black;
+}

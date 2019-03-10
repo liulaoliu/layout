@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="font/fa/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/carousel_01.css">
     <script src="js/jQuery331.js"></script>
 </head>
 <body>
@@ -97,21 +98,46 @@
                 <li><a href="#">安装 /</a><a href="#">	维修 /</a><a href="#">	清洗保养</a></li>
                 <li><a href="#">工业品</a></li>
             </div>
-            <div class="main_img">
-                <!-- 应该为轮播图 -->
-            </div>
-            <!-- 轮播图右边的三张图片 -->
-            <div class="trinity">
-                <img src="img/c2.jpg" alt="">
-                <img src="img/c3.jpg" alt="">
-                <img src="img/c4.jpg" alt="">
 
-            </div>
-            <div class="login_panel">
+            <div class="main_img"> <!-- 应该为轮播图 -->
+                <div class="carousel_container block_mediate type_area">
+                    <ul class="carousel">
+                        <li class="carousel_item active"><img src="img/carousel/1.png" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/2.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/3.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/4.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/5.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/6.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/7.jpg" alt="none"></li>
+                        <li class="carousel_item "><img src="img/carousel/8.jpg" alt="none"></li>
 
+                    </ul>
+                    <button class="left">←</button>
+                    <button class="right">→</button>
+                    <ul class="points">
+                        <li class="points_item active" data-index="0"></li>
+                        <li class="points_item" data-index="1"></li>
+                        <li class="points_item" data-index="2"></li>
+                        <li class="points_item" data-index="3"></li>
+                        <li class="points_item" data-index="4"></li>
+                        <li class="points_item" data-index="5"></li>
+                        <li class="points_item" data-index="6"></li>
+                        <li class="points_item" data-index="7"></li>
+                    </ul>
+                    <!-- 轮播图右边的三张图片 -->
+                </div>
+                </div>
+                <div class="trinity">
+                    <img src="img/c2.jpg" alt="">
+                    <img src="img/c3.jpg" alt="">
+                    <img src="img/c4.jpg" alt="">
+
+                </div>
+                <div class="login_panel"></div>
             </div>
         </div>
-    </div>
+            </div>
+
 
     <!-- 这是最底部的内容，主要分五行
         分别是：
@@ -217,7 +243,7 @@
             </div>
    </footer>
 </body>
-<script src="js/index.js">
-</script>
+<script src="js/index.js"></script>
+<script src="js/carousel_01.js"></script>
 </html>
 
