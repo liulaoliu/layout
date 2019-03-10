@@ -5,7 +5,6 @@ body{
     height: 80px;
     background: url(../img/clicktoclose.jpg) no-repeat center;
     background-color: #FCB4FE;
-    position: relative;
 }
 /* 忘了那个图片要盖住这一行了 */
 .veil{
@@ -26,7 +25,7 @@ body{
 }
 i[class~="fa-window-close-o"]{
     position: absolute;
-    right:700px;
+    right:0px;
     top:8px;
     cursor: pointer;
 }
