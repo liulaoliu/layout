@@ -4,3 +4,5 @@ thx so much!github <br/>
 thx so so much github desktop <br/>
 and git bash hurts sometimes(like 20hours per day)<br/>
 https://liulaoliu.github.io/layout/
+see what`s "jd" look like,click below;
+https://liulaoliu.github.io/layout/jd
