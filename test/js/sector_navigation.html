@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-     *{
-         padding: 0;
-         margin: 0;
-     }
-     html,body{
+
+html,body{
          overflow: hidden;
      }
      .home{
@@ -23,7 +20,7 @@
 
      }
 
-     img{
+     .damn img{
          width: 100%;
          height: 100%;
          border-radius: 50%;
@@ -35,7 +32,6 @@
    /* transition: 1s; */
    left: 0;
    top: 0;
-   cursor: pointer;
 
 }
 .damn{
@@ -117,22 +113,6 @@
         }
     }
 
-//给扇形导航的元素绑定点击放大的事件
-function fn(){
-    this.style.transform="scale(1)";
-    this.style.opacity="1";
-    this.removeEventListener("transitionend",fn)
-}
-for(let i=0;i<items.length;i++){
-    items[i].addEventListener("click",function(){
-            items[i].style.transform="scale(2)";
-            this.style.transition="0.2s";
-            this.style.opacity="0.1";
-            this.addEventListener("transitionend",fn)
-
-
-    })
-}
 
 
 
