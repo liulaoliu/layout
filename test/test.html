@@ -40,8 +40,8 @@
 }
 .damn{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 600px;
+    right: 600px;
     width: 67px;
     height: 67px;
 }
@@ -52,6 +52,11 @@
     <div class="home">
         <img src="1stars00045jp-3.png" alt="none">
     </div>
+    <img src="1stars00045jp-3.png" alt="item">
+    <img src="1stars00045jp-3.png" alt="item">
+    <img src="1stars00045jp-3.png" alt="item">
+    <img src="1stars00045jp-3.png" alt="item">
+    <img src="1stars00045jp-3.png" alt="item">
     <img src="1stars00045jp-3.png" alt="item">
     <img src="1stars00045jp-3.png" alt="item">
     <img src="1stars00045jp-3.png" alt="item">
@@ -101,8 +106,8 @@
     function sector_and_rotate(){
         for(let i=0;i<items.length;i++){
             items[i].style.transition=1+i*0.1+"s";
-            items[i].style.left=getPosition(240,i*22.5)["left"];//想一想为什么原始css中没有left和top，渐变效果就不出现？
-            items[i].style.top=getPosition(240,i*22.5)["top"];
+            items[i].style.left=getPosition(240,i*36)["left"];//想一想为什么原始css中没有left和top，渐变效果就不出现？
+            items[i].style.top=getPosition(240,i*36)["top"];
             items[i].style.transform="rotate(-360deg)";
         }
     }

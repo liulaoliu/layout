@@ -7,6 +7,12 @@
     -ms-user-select:none;
     width: 80px;
     height:80px;
+    left: 0;
+    bottom: 60px;
+    transition:1s;
+    z-index:20;
+    /* 注意这个z-index是为了让扇形导航的元素能不被其他页面结构覆盖而添加的 */
+
 }
 .sector_home{
     width: 80px;
@@ -20,7 +26,8 @@
     position: absolute;
     left:10px;
     bottom: 20px;
-    z-index: 1;
+    z-index:2000;
+
 
 }
 .sector_item_container{
@@ -30,17 +37,21 @@
     position: absolute;
     left:10px;
     bottom: 20px;
+    z-index:1998
 }
 
 .sector_item{
     width: 80px;
     line-height: 80px;
-    background-color: white;
-    color:crimson;
+    font-family: Consolas;
+    background-color: orange;
+    color:white;
     position: absolute;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
     left:0;
     bottom: 0;
+    z-index:1998
+
 }
