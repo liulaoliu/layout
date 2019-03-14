@@ -76,11 +76,11 @@
     }
 
 
-
     function home_rotate_reverse(){
         home.style.transform="rotate(-360deg)";
         sector_and_rotate_reverse();
     }
+
     let toggle=true;
     home.addEventListener("click",function(){
         if(toggle){home_rotate();}
@@ -124,16 +124,36 @@
 
 //给扇形导航的元素绑定点击放大的事件
 function fn(){
-    this.style.transform="scale(1)";
-    this.style.opacity="1";
-    this.removeEventListener("transitionend",fn)
+    this.style.width="67px";
+    this.style.height="67px";
+    this.style["border-radius"]="50%";
+    this.style["z-index"]="0";
+    this.style.transition="0.1s";
+    this.removeEventListener("transitionend",fn);
 }
+let b1=true;
 for(let i=0;i<items.length;i++){
     items[i].addEventListener("click",function(){
-            items[i].style.transform="scale(2)";
-            this.style.transition="0.2s";
-            this.style.opacity="0.1";
-            this.addEventListener("transitionend",fn)
+            // items[i].style.transform="scale(2)";
+            // this.style.transition="0.2s";
+            // this.style.opacity="0.1";
+            if(b1){
+                this.style.width="800px";
+                this.style.height="535px";
+                this.style["border-radius"]="2%";
+                this.style["z-index"]="123";
+                this.style.transition="0s";
+                console.log("123");
+            }
+            else{
+                this.style.width="67px";
+                this.style.height="67px";
+                this.style["border-radius"]="50%";
+                this.style["z-index"]="0";
+                this.style.transition="0s";
+            }
+            b1=!b1;
+            // this.addEventListener("transitionend",fn)
 
 
     })
