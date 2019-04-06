@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: consolas 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #070c24;
+    font-family:'Poppins',consolas;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    background: #fff;
+    margin: 20px;
+}
+.container .imgBox{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #006dbc;
+}
+.container .imgBox:before{
+    content: "Nike";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color:#000;
+    opacity: 0.2;
+    font-size: 8em;
+    font-weight: 800;
+    font-family: Consolas;
+    text-transform: uppercase
+}
+.container .imgBox img{
+    position: relative;
+    width: 700px;
+    transform: rotate(-30deg);
+    left:-50px;
+}
+
+.container .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding:40px;
+}
+
+h2{
+
+    font-size: 2.5em;
+}
+h2 span{
+    font-size: 0.5em;
+    color:#666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.details p{
+     max-width: 85%;
+     margin-left: 25px;
+}
+.details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color:#777;
+    float: left;
+}
+.details button{
+    background: #006dbc;
+    color:#fff;
+    border:none;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family:consolas ;
+    font-weight:600;
+    text-transform: uppercase;
+    border-radius: 60px;
+    float: right;
+    cursor: pointer;
+}
+
+@media (max-width:1080px){
+    .container{
+        height: auto;
+    }
+    .container .imgBox{
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100% !important;
+        text-align: center;
+        overflow: hidden;
+    }
+    .container .imgBox img{
+        left:initial;
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
+    .details{
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+    .container .details p{
+        max-width: 100%;
+        margin-left: 0;
+        color:#333;
+        font-size: 15px;
+    }
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="imgBox">
+        <img src="ac.png" alt="none" >
+    </div>
+    <div class="details">
+        <div class="content">
+        <h2>Nike Air Max 270 <br><span> running collection</span></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque architecto voluptatem nemo officiis id veritatis nihil corporis obcaecati perspiciatis ducimus, deserunt quasi qui, inventore nisi. Impedit sequi quibusdam et nobis.</p>
+        <h3>349.99元</h3>
+        <button>Buy Now</button>
+    </div>
+    </div>
+</div>
+</body>
+<script src="index.js">
+
+</script>
+</html>

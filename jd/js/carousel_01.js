@@ -45,7 +45,7 @@ btnLeft.addEventListener('click',goLeft);
 //圆点的点击效果开始 start
 for(let i=0;i<pointsItem.length;i++){
     pointsItem[i].addEventListener("click",function(){
-        index=pointsItem[i].getAttribute('data-index')-1;
+        index=this.getAttribute('data-index')-1;
         goRight();
     })
 }
