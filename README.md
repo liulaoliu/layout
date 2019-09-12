@@ -14,13 +14,15 @@
 2018-2019
 ### fcc 自学作业：
 
->前端库 环节：(用的都是 react unpkg 如果用cli 就需要服务器了...)
+>前端库 环节：(用的都是 react unpkg 如果用cli 就需要服务器了...)<br/>
+
 build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine)<br/>
 build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer)<br/>
 build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine)<br/>
 build a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator)<br/>
 build a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/)<br/>
->响应式设计环节：
+>响应式设计环节：<br/>
+
 tribute page: [地址](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/)<br/>
 survey form [地址](https://liulaoliu.github.io/fcc_demo/survey-form)<br/>
 a product landing page [地址](calculation-excerciseProduct-Landing-Page) <br/>
