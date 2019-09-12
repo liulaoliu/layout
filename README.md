@@ -1,4 +1,5 @@
-2017-2018 
+ 嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。
+ long ago -2018 
 #### 京东首页布局 [地址](https://liulaoliu.github.io/layout/jd)<br/>
 
 #### Bilibili 首页的布局 [地址](https://liulaoliu.github.io/layout/bilibili/)<br>
@@ -24,7 +25,7 @@ tribute page: [地址](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/
 survey form [地址](https://liulaoliu.github.io/fcc_demo/survey-form)<br/>
 a product landing page [地址](https://liulaoliu.github.io/fcc_demo/Product-Landing-Page) <br/>
 
-- 此处有些问题，为了避免直接跳转（偶然在火狐上发现有这种情况)，做了一些改变，会导致 iframe 不加载，咳咳。
+- 此处有些问题，为了避免直接跳转（偶然在火狐上发现有这种情况)，做了一些改变，会导致 iframe 不加载，咳咳。<br/>
   a personal portfolio [地址](https://liulaoliu.github.io/fcc_demo/portfolio)<br/>
 - 黑猫图片占位，还没找好（便宜点的)服务器放后端项目，到时候一块添加吧。
 
