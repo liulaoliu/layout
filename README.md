@@ -1,8 +1,8 @@
- 嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。
+ 嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。<br/>
  long ago -2018 
-#### 京东首页布局 [地址](https://liulaoliu.github.io/layout/jd)<br/>
+#### 有版心的简单布局 [地址](https://liulaoliu.github.io/layout/jd)<br/>
 
-#### Bilibili 首页的布局 [地址](https://liulaoliu.github.io/layout/bilibili/)<br>
+#### 视频网站首页的布局练习 [地址](https://liulaoliu.github.io/layout/bilibili/)<br>
 
 #### 闲来无事...<br/>
 
