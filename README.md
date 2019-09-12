@@ -6,14 +6,14 @@
 ***
 ### fcc 自学作业：
 前端库 环节：
-build a random quote machine http://liulaoliu.github.io/fcc_demo/random-quote-machine
-build a md previewer https://liulaoliu.github.io/fcc_demo/markdown-previewer
-build a drum machine https://liulaoliu.github.io/fcc_demo/drum-machine
-build a JavaScript calculator https://liulaoliu.github.io/fcc_demo/JavaScript-calculator
-build a pomodoro clock https://liulaoliu.github.io/fcc_demo/pomdoro-clock/
+build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine）
+build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer）
+build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine）
+build a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator）
+build a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/）
 响应式设计环节：
-tribute page: https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/
-survey form :https://liulaoliu.github.io/fcc_demo/survey-form
+tribute page: [地址](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/）
+survey form [地址](https://liulaoliu.github.io/fcc_demo/survey-form）
 a product landing page [地址](https://liulaoliu.github.io/fcc_demo/Product-Landing-Page)  
 - 此处有些问题，为了避免直接跳转（偶然在火狐上发现有这种情况），做了一些改变，会导致iframe不加载，咳咳。
 a personal portfolio [地址](https://liulaoliu.github.io/fcc_demo/portfolio)
