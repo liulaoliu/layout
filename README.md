@@ -6,15 +6,15 @@
 ***
 ### fcc 自学作业：
 前端库 环节：
-build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine）
-build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer）
-build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine）
-build a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator）
-build a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/）
+build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine）<br/>
+build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer）<br/>
+build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine）<br/>
+build a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator）<br/>
+build a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/）<br/>
 响应式设计环节：
-tribute page: [地址](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/）
-survey form [地址](https://liulaoliu.github.io/fcc_demo/survey-form）
-a product landing page [地址](https://liulaoliu.github.io/fcc_demo/Product-Landing-Page)  
+tribute page: [地址](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/）<br/>
+survey form [地址](https://liulaoliu.github.io/fcc_demo/survey-form）<br/>
+a product landing page [地址](https://liulaoliu.github.io/fcc_demo/Product-Landing-Page)  <br/>
 - 此处有些问题，为了避免直接跳转（偶然在火狐上发现有这种情况），做了一些改变，会导致iframe不加载，咳咳。
-a personal portfolio [地址](https://liulaoliu.github.io/fcc_demo/portfolio)
+a personal portfolio [地址](https://liulaoliu.github.io/fcc_demo/portfolio)<br/>
 - 黑猫图片占位，还没找好（便宜点的）服务器放后端项目，到时候一块添加吧。
