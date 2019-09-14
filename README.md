@@ -1,7 +1,6 @@
  嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。<br/>
 ***
 #### react.js 
-前端库 环节：(使用在线CDN )<br/>
 build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine)<br/>
 build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer)<br/>
 build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine)<br/>
