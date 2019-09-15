@@ -1,11 +1,11 @@
  嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。<br/>
 ***
-#### react.js 
-build a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine)<br/>
-build a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer)<br/>
-build a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine)<br/>
-build a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator)<br/>
-build a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/)<br/>
+#### 使用react.js制作web应用
+- a random quote machine [地址](http://liulaoliu.github.io/fcc_demo/random-quote-machine)<br/>
+- a md previewer [地址](https://liulaoliu.github.io/fcc_demo/markdown-previewer)<br/>
+- a drum machine [地址](https://liulaoliu.github.io/fcc_demo/drum-machine)<br/>
+- a JavaScript calculator [地址](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator)<br/>
+- a pomodoro clock [地址](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/)<br/>
 
 #### CSS/Responsive Design/layout
 > the three elemnts of responsive design are flexible grid layout ,media query,images that resize (as the page size changes)
@@ -26,4 +26,5 @@ a personal portfolio [地址](https://liulaoliu.github.io/fcc_demo/portfolio) (�
 *** 
 ### node.js后端
 [后台管理工具](https://github.com/liulaoliu/element-admin)<br/>
-[服务器和数据库的模块化管理](https://github.com/liulaoliu/modularization-of-express-backend)
+[服务器和数据库的模块化管理](https://github.com/liulaoliu/modularization-of-express-backend)<br/>
+[MongoDB的关联（设置和查询）介绍](https://github.com/liulaoliu/MongoDB-reference)
