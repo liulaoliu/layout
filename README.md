@@ -28,3 +28,4 @@
 [服务器和数据库的模块化管理](https://github.com/liulaoliu/modularization-of-express-backend)<br/>
 [MongoDB的关联（设置和查询）介绍](https://github.com/liulaoliu/MongoDB-reference)<br/>
 [用multer上传文件到express服务器](https://github.com/liulaoliu/uploadfiles-multer)<br/>
+[怎么设计通用CRUD接口?](https://zhuanlan.zhihu.com/p/82991242)<br/>
