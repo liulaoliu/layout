@@ -1,4 +1,3 @@
- 嗨！你好，我是练习时长两年半的野生前端开发，喜欢学、写、调接口。<br/>
 ***
 #### 使用react.js制作web应用
 [random quote machine](http://liulaoliu.github.io/fcc_demo/random-quote-machine)<br/>
