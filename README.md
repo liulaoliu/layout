@@ -6,7 +6,7 @@
 [JavaScript calculator](https://liulaoliu.github.io/fcc_demo/JavaScript-calculator)<br/>
 [pomodoro clock](https://liulaoliu.github.io/fcc_demo/pomdoro-clock/)<br/>
 
-#### CSS/Responsive Design/layout
+#### CSS/Responsive Design/layout 响应式/页面布局
 > the three elemnts of responsive design are flexible grid layout ,media query,images that resize (as the page size changes)
 
 [tribute page](https://liulaoliu.github.io/fcc_demo/darth-vader-tribute/)<br/>
